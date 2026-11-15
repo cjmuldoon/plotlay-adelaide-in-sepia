@@ -1,12 +1,12 @@
 # Adelaide in Sepia
 
-Every building mapped inside the City of Adelaide (the city centre, North Adelaide and the Park Lands round them), each with one height and where that height comes from. **Live version, with an interactive map and the 3D fly-round:** [getplotlay.com/showcase/adelaide-in-sepia](https://www.getplotlay.com/showcase/adelaide-in-sepia/)
+Every building mapped inside the City of Adelaide (the city centre, North Adelaide and the Park Lands round them), each with one height and where that height comes from. **Live version, with an interactive map and the 3D flight over the city:** [getplotlay.com/showcase/adelaide-in-sepia](https://www.getplotlay.com/showcase/adelaide-in-sepia/)
 
 ![Adelaide from the south west in Plotlay's Sepia look, toned by height](visuals/hero_16x9.jpg)
 
 **7,341 buildings. 80% stand under 10 m; ten reach 100 m.** The tallest is The Adelaidean at 138 m (as mapped in OpenStreetMap). 179 buildings are 30 m or more, and 171 of them are south of the Torrens.
 
-The model was made in [Plotlay](https://www.getplotlay.com): the buildings as data layers, raised in 3D at their heights and shown in the Sepia look. The charts, renders and fly-round were made in Plotlay too.
+The model was made in [Plotlay](https://www.getplotlay.com): the buildings as data layers, raised in 3D at their heights and shown in the Sepia look. The charts, renders and the flight over the city were made in Plotlay too.
 
 [![Open in Plotlay](https://img.shields.io/badge/Open_in-Plotlay-1d4f91)](https://app.plotlay.io/?example=adelaide-in-sepia&as=client)
 
@@ -49,7 +49,7 @@ The council publishes its 3D model as SketchUp blocks (COLLADA inside four KMZ f
 | [`data/`](data) | `buildings.csv`: one row a building, with `height_m`, `height_from`, and the columns the choice was made from (`osm_height_m`, `levels`, `model_height_m`). `buildings.geojson`: the outlines as drawn in 3D, one a building or mapped part, with `height_m` and `base_m` |
 | [`python/`](python) | A short notebook that gets the numbers again: [`adelaide_in_sepia.ipynb`](python/adelaide_in_sepia.ipynb) |
 | [`method/`](method) | The scripts that read the council's model and joined it to the outlines, and the two checks (coverage, heritage dates) |
-| [`visuals/`](visuals) | The renders, charts and fly-round |
+| [`visuals/`](visuals) | The renders, charts and the flight over the city |
 
 ### Run the notebook
 
