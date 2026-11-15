@@ -1,0 +1,37 @@
+Adelaide in Sepia: the buildings inside the City of Adelaide, each with its height.
+Copyright 2026 Craig Muldoon. Made with Plotlay (https://www.getplotlay.com).
+
+CODE
+  The notebook and the scripts in method/ are licensed under the MIT licence (LICENSE).
+
+DATA (data/)
+  The tables and outlines in data/ are made from OpenStreetMap, which is under the Open Database Licence, so data/ is
+  licensed under the Open Database Licence 1.0 (LICENSE-DATA): if you publicly use a database made from it, offer that
+  database under the ODbL too. Please credit: "Adelaide in Sepia: Plotlay (getplotlay.com), from OpenStreetMap
+  contributors and the City of Adelaide's 3D model".
+
+VISUALS (visuals/)
+  The renders, charts and fly-round are Produced Works made from the data; they are licensed under Creative Commons
+  Attribution 4.0 International. Keep this credit with them: "Plotlay (getplotlay.com). Buildings: (c) OpenStreetMap
+  contributors, ODbL. Heights in part from the City of Adelaide's 3D model, Data.SA, CC BY."
+
+UPSTREAM SOURCES AND CHANGES
+  OpenStreetMap: (c) OpenStreetMap contributors, Open Database Licence 1.0, https://www.openstreetmap.org/copyright.
+    Buildings and building parts with their tags, fetched from the Overpass API on 2026-11-15. Changes: those inside the
+    City of Adelaide kept; one height chosen for each; outlines rounded to 6 decimal places.
+
+  3D Model of the City of Adelaide: City of Adelaide, Data.SA, Creative Commons Attribution.
+    https://data.sa.gov.au/data/dataset/3d-model (05 Adelaide City Council 3D Model for Multipatch, files of July 2016).
+    Changes: read as sample points; each OpenStreetMap outline given the height of the model's roof inside it. The
+    model itself is not copied here.
+
+  Australian Bureau of Statistics, Australian Statistical Geography Standard Edition 3 (local government areas, suburbs
+    and localities), CC BY 4.0. Used to keep the buildings inside the City of Adelaide and to name each one's suburb.
+
+  Department for Environment and Water (South Australia), Metropolitan Adelaide tree canopy, green spaces and built
+    environment 2022 (building footprints), Data.SA, CC BY. Used only to check how complete the outlines are.
+
+  Department for Housing and Urban Development (South Australia), SA Heritage Places, Data.SA, CC BY. Used only to
+    check whether it records construction years (it does not). No heritage data is copied here.
+
+This is independent work using open data, not endorsed by the City of Adelaide or the South Australian Government.
